@@ -1,0 +1,41 @@
+# Arduino build files
+build/
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.a
+*.d
+
+
+# Arduino IDE temporary files
+*.ino.cpp
+*.ino.elf
+*.ino.bin
+*.ino.map
+
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+
+# Backup files
+*.bak
+*.tmp
+*.temp
+
+# Secrets (if added later)
+secrets.h
+arduino_secrets.h
+.env
